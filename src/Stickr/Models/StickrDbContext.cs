@@ -17,5 +17,7 @@ namespace Stickr.Models
         {
             base.OnModelCreating(builder);
         }
+        public DbSet<Account> Accounts { get; set; }
+        public DbSet<Image> Images { get; set; }
     }
 }

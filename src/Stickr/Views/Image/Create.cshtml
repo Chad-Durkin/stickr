@@ -1,0 +1,19 @@
+﻿@model Stickr.Models.Image
+
+@{
+    ViewData["Title"] = "Add Image";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Add Images to your account</h4>
+
+@using (@Html.BeginForm())
+{
+    @Html.LabelFor(m => m.Title)
+    @Html.TextBoxFor(m => m.Title)
+
+    @Html.LabelFor(m => m.ImageUrl)
+    @Html.TextBoxFor(m => m.ImageUrl)
+
+    <input type="submit" value="Add Image" />
+}

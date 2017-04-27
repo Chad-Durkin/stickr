@@ -30,9 +30,9 @@ namespace Stickr
         {
             services.AddMvc();
             services.AddEntityFramework()
-                .AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+                .AddDbContext<StickrDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
             services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddEntityFrameworkStores<StickrDbContext>()
                 .AddDefaultTokenProviders();
         }
 
