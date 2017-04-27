@@ -1,0 +1,18 @@
+﻿@model Stickr.Models.Image
+
+@{
+    ViewData["Title"] = "Upload Image";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Heloooooooo</h1>
+<form method="post" asp-action="Index" asp-controller="Home" enctype="multipart/form-data">
+
+    @Html.Label("ImageTitle", "Image Title")
+    @Html.TextBox("ImageTitle")
+
+    @Html.Label("Description", "Image Description")
+    @Html.TextBox("Description")
+
+    <input type="file" name="files" />
+    <input type="submit" value="Upload" />
+</form>

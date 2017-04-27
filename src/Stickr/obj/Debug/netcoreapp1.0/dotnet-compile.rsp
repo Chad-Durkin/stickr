@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\bin\Debug\netcoreapp1.0\Stickr.dll
+--temp-output:c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\obj\Debug\netcoreapp1.0\
+--out:c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\bin\Debug\netcoreapp1.0\Stickr.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -200,17 +200,17 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\obj\Debug\netcoreapp1.0\Stickrdotnet-compile.deps.json",Stickr.deps.json
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Program.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Startup.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Controllers\AccountController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Controllers\ImageController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Migrations\20170427173438_Initial.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Migrations\20170427173438_Initial.Designer.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Migrations\StickrDbContextModelSnapshot.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Models\Account.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Models\ApplicationUser.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Models\Image.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\Models\StickrDbContext.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\ViewModels\LoginViewModel.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\Stickr\src\Stickr\ViewModels\RegisterViewModel.cs
+--resource:"c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\obj\Debug\netcoreapp1.0\Stickrdotnet-compile.deps.json",Stickr.deps.json
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Program.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Startup.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Controllers\AccountController.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Controllers\ImageController.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Migrations\20170427173438_Initial.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Migrations\20170427173438_Initial.Designer.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Migrations\StickrDbContextModelSnapshot.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Models\Account.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Models\ApplicationUser.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Models\Image.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\Models\StickrDbContext.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\ViewModels\LoginViewModel.cs
+c:\Users\epicodus\documents\visual studio 2015\Projects\Stickr\src\Stickr\ViewModels\RegisterViewModel.cs

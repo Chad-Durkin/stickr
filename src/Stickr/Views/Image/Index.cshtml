@@ -1,0 +1,12 @@
+﻿@model Stickr.Models.Account
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach (var image in Model.Images)
+{
+    <h2>@image.Title</h2>
+    <img src="@image.ImageUrl" />
+}
